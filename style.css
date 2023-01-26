@@ -5,24 +5,24 @@
 font-family: 'Poppins', sans-serif;
 
 }
-.navbar-brand{
-    font-size: 2rem;
-    font-family: 'Dancing Script', cursive;
-    color: red;
-}
 .nav-link{
-    color: rgb(10, 10, 94);
+    color: #101010;
+
 }
 .nav-link:hover{
      color: blue;
      transition: all 0.3s;
+    
+     
 }
 .nav-item{
-    color: rgb(7,7 ,78, );
-    font-weight: 500;
-    padding-left: 35px;
+    color: #101010;
+    padding-left: 30px;
+    padding-bottom: 10px;
+   
 }
-.btn0{
+ 
+.btn{
     height:58px;
     width:181px;
     outline: none;
@@ -33,9 +33,12 @@ font-family: 'Poppins', sans-serif;
     background: #429FDD;
     border-radius: 4px;
 }
-.btn0:hover{
+.btn:hover{
     background-color: #0A5F97;
     transition: all  0.4s;
+    border:none;
+    outline: none;
+    color:white;
 }
 .hero{
  background: url(/Image/hero-section-bg.png)no-repeat;
@@ -48,7 +51,7 @@ font-family: 'Poppins', sans-serif;
     font-weight: 800;
 }
 
-.btn1{
+.btn-one{
     height: 58px;
     width: 326px;
     background: #429FDD;
@@ -58,3 +61,13 @@ font-family: 'Poppins', sans-serif;
     border-radius: 4px;
     margin-top: 50px;
 }
+.btn-one:hover{
+    background-color: #0A5F97;
+    transition: all  0.4s;
+    border:none;
+    outline: none;
+}
+.hero p{
+    display: inline-flex;
+}
+
