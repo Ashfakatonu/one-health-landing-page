@@ -71,3 +71,11 @@ font-family: 'Poppins', sans-serif;
     display: inline-flex;
 }
 
+.display h5{
+    display: inline-flex;
+    padding-left: 40px;
+    font-weight: 600;
+    color: #BEBEBE;
+    font-weight: 20px;
+  
+}
