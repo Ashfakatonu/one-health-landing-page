@@ -10,10 +10,8 @@ font-family: 'Poppins', sans-serif;
 
 }
 .nav-link:hover{
-     color: blue;
+     color: #429FDD;
      transition: all 0.3s;
-    
-     
 }
 .nav-item{
     color: #101010;
@@ -43,7 +41,8 @@ font-family: 'Poppins', sans-serif;
 }
 
 .hero{
- background: url(/Image/hero-section-bg.png)no-repeat;
+ 
+    background: linear-gradient(255.38deg, rgba(244, 117, 33, 0.08) -0.57%, rgba(66, 159, 221, 0.05) 107.62%);
  background-size: cover;
  width: 100%;
  height: 669px;
@@ -68,36 +67,58 @@ font-family: 'Poppins', sans-serif;
     transition: all  0.4s;
     border:none;
     outline: none;
+    color:white;
 }
 .hero p{
     display: inline-flex;
 }
 
-.display h5{
+.checked{
+    color: #429FDD;
+    
+}
+
+.display a{
     display: inline-flex;
     padding-left: 40px;
     font-weight: 600;
     color: #BEBEBE;
     font-weight: 20px;
-  
+    text-decoration: none;
+    
 }
+a:hover{
+    color: #429FDD;
+}
+
+
 .last-section{
     margin-top: 500px;
-    background: url(/Image/last-section-bg.png)no-repeat;
+    background: linear-gradient(255.38deg, rgba(244, 117, 33, 0.08) -0.57%, rgba(66, 159, 221, 0.05) 107.62%);
     background-size: cover;
 }
-.last-section card-body{
-    height: 259px ;
-    width: 267px;
-    box-shadow: rgba(165, 164, 164, 0.15);
-    display: inline-flex;
-}
+
 .last-section h5{
     padding: 10px 0 10px 0;
     font-size: 20px;
     font-weight: 900;
 }
+
+.card-line{
+    width: 70%;
+    
+    
+   
+}
+
+.card-body{
+    background: #FFFFFF;
+box-shadow: 0px 20px 20px rgba(165, 164, 164, 0.15);
+ border-radius: 8px;
+
+}
+
 .last-section-card{
-    height: 200px;
-    width: 350px;
+    height: 260px;
+ 
 }
