@@ -85,8 +85,6 @@ font-family: 'Poppins', sans-serif;
     margin-top: 500px;
     background: url(/Image/last-section-bg.png)no-repeat;
     background-size: cover;
-    width: 1520px;
-    height: 419px;
 }
 .last-section card-body{
     height: 259px ;
@@ -99,4 +97,7 @@ font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 900;
 }
-
+.last-section-card{
+    height: 200px;
+    width: 350px;
+}
